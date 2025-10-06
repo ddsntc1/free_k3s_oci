@@ -10,7 +10,7 @@ output "ssh_examples" {
 
 output "k3s_info" {
   description = "클러스터 접근 및 초기 확인 절차"
-  value = <<EOT
+  value       = <<EOT
 1) 위 public IP로 SSH 접속(기본 사용자: opc)
 2) "kubectl get nodes" 로 Ready 확인
 3) Ingress Controller 배포 완료까지 1~3분 대기
