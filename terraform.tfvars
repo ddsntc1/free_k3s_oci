@@ -1,7 +1,0 @@
-tenancy_ocid = "ocid1.tenancy.oc1..."
-user_ocid = "ocid1.user.oc1..."
-fingerprint = "aa:bb:cc:..."
-private_key_path = "~/.oci/oci_api_key.pem"
-region = "ap-seoul-1"
-compartment_ocid = "ocid1.compartment.oc1..."
-ssh_public_key = "ssh-ed25519 AAAA... user@host"
